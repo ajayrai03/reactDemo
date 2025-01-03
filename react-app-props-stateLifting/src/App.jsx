@@ -5,6 +5,10 @@ import { useState } from 'react';
 function App() {
 //  const data = "Hello from parent";
 
+function HandleData(props){
+  alert(props);
+}
+
 const [data,setData]=useState("Hello from parent");
 
   return (

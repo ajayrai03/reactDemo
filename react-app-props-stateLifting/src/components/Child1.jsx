@@ -4,6 +4,7 @@ const Child1 = (props) => {
   return (
     <div>
       {props.message}
+      
     </div>
   )
 }
